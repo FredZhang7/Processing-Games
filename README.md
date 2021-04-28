@@ -5,6 +5,7 @@
 
 #### Processing is SO FUN!!!
 - Processing 3 provided so many __cool GUIs__ for beginner programmers, and the __syntax is easier to learn__ compared to Java, too!
+- You can also draw complex geometry shapes with just a few lines of code!
 
 #### Author
 - Weiqian (Fred) Zhang from Lord Byng Secondary School
