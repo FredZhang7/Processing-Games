@@ -11,4 +11,4 @@
 
 #### Other Repositories
 - https://github.com/WeiqianFredZhang/Node.js-Projects
-- https://github.com/WeiqianFredZhang/Automation_Using_C
+- https://github.com/WeiqianFredZhang/Automation_Using_AHK
