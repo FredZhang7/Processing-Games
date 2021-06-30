@@ -4,6 +4,9 @@
 - Processing 3 provided so many __cool GUIs__ for beginner programmers, and the __syntax is easier to learn__ compared to Java, too!
 - I coded a lot of mini games and fancy art drawings from just a few lines of code!
 
+#### IMPORTANT
+- Those projects are public, but please don't republish them!
+
 #### Author
 - Weiqian (Fred) Zhang from Lord Byng Secondary School
 
