@@ -67,7 +67,6 @@ void draw() {
     fill(255);
 
 
-
     y = y + dy;
     y1 = y1 + dy;
     y2 = y2 + dy;
@@ -111,14 +110,10 @@ void draw() {
            
             XPos -= 4;
            
-          } else {
-            XPos = XPos;
-            
           }
         }
       }
     }
-
 
 
     if (collision(x, y)) {
@@ -169,7 +164,7 @@ void draw() {
 
 boolean collision (float x, float y)
 {
-  if (Math.abs(x-XPos)<60 && y > 330) {
+  if (Math.abs(x-XPos)<50 && y > 270 && y < 350) {
     return(true);
   } else {
     return(false);
@@ -177,7 +172,7 @@ boolean collision (float x, float y)
 }
 boolean collision1 (float x1, float y1)
 {
-  if (Math.abs(x1-XPos)<60 && y1 > 330) {
+  if (Math.abs(x1-XPos)<40 && y1 > 280 && y1 < 340) {
     return(true);
   } else {
     return(false);
@@ -185,7 +180,7 @@ boolean collision1 (float x1, float y1)
 }
 boolean collision2 (float x2, float y2)
 {
-  if (Math.abs(x2-XPos)<60 && y2 > 330) {
+  if (Math.abs(x2-XPos)<50 && y2 > 270 && y2 < 350) {
     return(true);
   } else {
     return(false);
@@ -193,7 +188,7 @@ boolean collision2 (float x2, float y2)
 }
 boolean collision3 (float x3, float y3)
 {
-  if (Math.abs(x3-XPos)<60 && y3 > 330) {
+  if (Math.abs(x3-XPos)<45 && y3 > 240 && y2 < 330) {
     return(true);
   } else {
     return(false);
@@ -201,7 +196,7 @@ boolean collision3 (float x3, float y3)
 }
 boolean collision4 (float x4, float y4)
 {
-  if (Math.abs(x4-XPos)<50 && y4 > 330) {
+  if (Math.abs(x4-XPos)<27 && y4 > 270 && y4 < 330) {
     return(true);
   } else {
     return(false);
