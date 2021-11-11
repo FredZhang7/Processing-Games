@@ -60,12 +60,10 @@ void draw() {
     background(0);
     image(img, 0, 0);
     image(img2, XPos, 300);
-    float num = 1;
    
     textSize(32);
     text("Score: " + score/600, 500, 31);
     fill(255);
-
 
     y = y + dy;
     y1 = y1 + dy;
@@ -161,7 +159,6 @@ void draw() {
 }
 
 
-
 boolean collision (float x, float y)
 {
   if (Math.abs(x-XPos)<50 && y > 270 && y < 350) {
@@ -188,7 +185,7 @@ boolean collision2 (float x2, float y2)
 }
 boolean collision3 (float x3, float y3)
 {
-  if (Math.abs(x3-XPos)<45 && y3 > 240 && y2 < 330) {
+  if (Math.abs(x3-XPos)<45 && y3 > 240 && y3 < 330) {
     return(true);
   } else {
     return(false);
