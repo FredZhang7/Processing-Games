@@ -12,7 +12,7 @@ void setup() {
 
   dx = 0; // initialize the velocity so
   dy = 2; // its moving downwards only
-  dc = -4;
+  dc = -50;
   dd = 2.5;
   
   img = loadImage("Avengers.jpg");
@@ -35,32 +35,20 @@ void draw() {
   text("Avengers", a, b);
   image(img, x, y);
   image(img1, c, d);
-  ellipse(e, f, 55, 55);
   x += dx;// add dx to x
   y += dy;// add dy to y
   c += dc;
   d += dd;
-  e += dc;
-  f += dd;
-  z += dx;
-  if (y > 800) {// if y is greater than 499, then
+  if (y > 650 || y < 1) {// if y is greater than 499, then
     dy = -dy;// set y to be 0
-  }
-  if (x < 1){
+  } 
+  if (x < 1 || x > 800){
     dx = -dx;
   }
-  if (d >800) {
+  if (d >700 || d < 1) {
     dd = -dd;
-    //dc = -dc;
   }
-  if (c <1) {
+  if (c <1 || c > 950) {
     dc = -dc;
-    //dc = -dc;
-  }
-  if(e >1000){
-    dc = -dc;
-  }
-  if(f <150){
-    dd = -dd;
   }
 }
