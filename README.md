@@ -1,4 +1,4 @@
-# My Grade 7 and 9 Learning With Processing #
+# Processing Games #
 
 #### Processing is SO FUN!!!
 - Processing 3 provided many __cool GUIs__ for beginner programmers, and the __syntax is easier to learn__ compared to that of a standard Java IDE!
